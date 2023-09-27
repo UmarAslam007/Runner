@@ -66,7 +66,7 @@ TextureImporter:
       213: -4031994421904675635
     second: coin-sprite-sheet_20
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,10 +83,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +127,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -136,6 +140,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -148,6 +153,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -160,6 +166,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -172,6 +179,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -628,9 +649,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      coin-sprite-sheet_0: -238350617978462320
+      coin-sprite-sheet_1: 2351772652761101839
+      coin-sprite-sheet_10: 9156658706056634011
+      coin-sprite-sheet_11: -7283872142902682480
+      coin-sprite-sheet_12: -7291948230209309913
+      coin-sprite-sheet_13: 2121743182716646762
+      coin-sprite-sheet_14: -948181063577559057
+      coin-sprite-sheet_15: 3051364085108059356
+      coin-sprite-sheet_16: 8987488014559299314
+      coin-sprite-sheet_17: 1814931224281767584
+      coin-sprite-sheet_18: 3682036766712735971
+      coin-sprite-sheet_19: 9084054430874911827
+      coin-sprite-sheet_2: 4427420279404940717
+      coin-sprite-sheet_20: -4031994421904675635
+      coin-sprite-sheet_3: -3792031869518955979
+      coin-sprite-sheet_4: -7406249844844359689
+      coin-sprite-sheet_5: 7757499932335145265
+      coin-sprite-sheet_6: -792577225508911083
+      coin-sprite-sheet_7: -1210408091498098771
+      coin-sprite-sheet_8: 4866569155539835176
+      coin-sprite-sheet_9: 3309920862600865343
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
