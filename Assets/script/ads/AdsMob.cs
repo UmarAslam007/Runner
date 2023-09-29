@@ -6,7 +6,7 @@ using GoogleMobileAds.Api;
 public class AdsMob : MonoBehaviour
 {
     BannerView _bannerView;
-    private string _adUnitId="ca-app-pub-3100666941994405/2616257803";
+    private string _adUnitId="ca-app-pub-3940256099942544/6300978111"; //test keys
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +21,11 @@ private void CreateBannerView()
       // If we already have a banner, destroy the old one.
       if (_bannerView != null)
       {
-
+            _bannerView.Destroy();
       }
 
       // Create a 320x50 banner at top of the screen
-      _bannerView = new BannerView(_adUnitId, AdSize.Banner, AdPosition.Top);
+      _bannerView = new BannerView(_adUnitId, AdSize.Banner, AdPosition.Bottom);
   }
 
   public void LoadBanner()
